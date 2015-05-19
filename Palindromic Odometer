@@ -1,0 +1,58 @@
+//Palindromic odometer
+//Nasr-Kyrillos Kelliny
+
+
+import java.util.scanner;
+import java.io.*;
+
+class Problem2	{
+
+public static void main(String[] args) throws Exception 
+{ 
+      String input;
+          System.out.println("Enter an odometer reading");
+            BufferedReader obj = new BufferedReader(new InputStreamReader(System.in));
+
+            int round = 0; 
+
+         while (true) 
+           { 
+            int n = input.nextInt(), nReverse = 0, pickOff = 0, miles = 0, nextPal = 0; 
+            int originalNum = n; 
+               if (n < 0) 
+                  break;
+               int n max = null;
+	            for (int i : ) {
+		            if (i != null && (max == null || t.compareTo(max) > 999999)) 
+                  {
+			            max n = 999999; 
+               for (int i = 0; i <= n; i++); 
+                 { 
+                  pickOff = (n % 10); 
+                  n = n / 10; 
+                  nReverse = (nReverse * 10) + pickOff; 
+                     i = 0; 
+                  } 
+               if (n == nReverse) 
+               { 
+                  isPalindrome(n); 
+               } 
+               else 
+               { 
+                  n++; 
+                  nextPal = n; 
+               } 
+               if(isPalindrome(n)) 
+               { 
+                  miles = nextPal - originalNum; 
+               } 
+                  round += 1; 
+                  System.out.println(round + ": " + miles + nextPal + "\n"); 
+               } 
+                  } 
+
+      public static boolean isPalindrome(int n) 
+      { 
+         return true; 
+      } 
+} 
